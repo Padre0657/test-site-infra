@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: testcat2
-  namespace: testcat2
+  name: testcat4
+  namespace: testcat4
 spec:
   selector:
-    app: testcat2
+    app: testcat4
   ports:
     - port: 80
       targetPort: 80
