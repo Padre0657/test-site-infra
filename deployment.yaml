@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: testcat4
-          image: europe-west1-docker.pkg.dev/labo-quentin/apps/testcat2-code@sha256:5d87896e7a8f4ea4a5159977331a08b178a09be1f1ce63dbff9cf596cf412d3c
+          image: europe-west1-docker.pkg.dev/labo-quentin/apps/testcat4-code@sha256:edfad6131116cff658f0948bd6b2c5aa56af336d5c6a1459b782ada88561f081
           ports:
             - containerPort: 80
           resources:
