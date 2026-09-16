@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: testcat4
-  namespace: testcat4
+  name: e2e-p1-0916112434
+  namespace: e2e-p1-0916112434
 spec:
   selector:
-    app: testcat4
+    app: e2e-p1-0916112434
   ports:
     - port: 80
       targetPort: 80
