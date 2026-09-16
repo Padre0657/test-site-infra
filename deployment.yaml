@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: testcat4
-  namespace: testcat4
+  name: e2e-p1-0916112434
+  namespace: e2e-p1-0916112434
   labels:
-    app: testcat4
+    app: e2e-p1-0916112434
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: testcat4
+      app: e2e-p1-0916112434
   template:
     metadata:
       labels:
-        app: testcat4
+        app: e2e-p1-0916112434
     spec:
       containers:
-        - name: testcat4
-          image: europe-west1-docker.pkg.dev/labo-quentin/apps/testcat4-code@sha256:edfad6131116cff658f0948bd6b2c5aa56af336d5c6a1459b782ada88561f081
+        - name: e2e-p1-0916112434
+          image: europe-west1-docker.pkg.dev/labo-quentin/apps/e2e-p1-0916112434-test-site-code@sha256:467c56e2a9f7387bbea1a205a5ae274ed72e568e763ea666917ac96d05a91049
           ports:
             - containerPort: 80
           resources:
