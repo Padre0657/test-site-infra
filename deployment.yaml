@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: e2e-p1-0916112434
-  namespace: e2e-p1-0916112434
+  name: e2e-p1-0916192801
+  namespace: e2e-p1-0916192801
   labels:
-    app: e2e-p1-0916112434
+    app: e2e-p1-0916192801
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: e2e-p1-0916112434
+      app: e2e-p1-0916192801
   template:
     metadata:
       labels:
-        app: e2e-p1-0916112434
+        app: e2e-p1-0916192801
     spec:
       containers:
-        - name: e2e-p1-0916112434
-          image: europe-west1-docker.pkg.dev/labo-quentin/apps/e2e-p1-0916112434-test-site-code@sha256:467c56e2a9f7387bbea1a205a5ae274ed72e568e763ea666917ac96d05a91049
+        - name: e2e-p1-0916192801
+          image: europe-west1-docker.pkg.dev/labo-quentin/apps/e2e-p1-0916192801-test-site-code2@sha256:96cc3d2b7851548963999870aec38febbc9dfb47454874fd32188bc19d096e8c
           ports:
             - containerPort: 80
           resources:
